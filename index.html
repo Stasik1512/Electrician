@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>⚡ Электрик Бот</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>⚡ Электрик Бот</h1>
+
+    <div class="menu">
+        <button onclick="setMode('study')">📘 Обучение</button>
+        <button onclick="setMode('game')">🎮 Игра</button>
+    </div>
+
+    <div id="chat"></div>
+
+    <div class="input-area">
+        <input id="input" placeholder="Введите ответ..." autocomplete="off">
+        <button onclick="send()">Отправить</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
